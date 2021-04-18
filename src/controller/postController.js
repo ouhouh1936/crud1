@@ -2,7 +2,6 @@ import crud1 from "../models/crud1";
 
 export const postController = async (req, res) => {
   try {
-[]
     const result = await crud1.find({}, {});
 
     console.log(result);
