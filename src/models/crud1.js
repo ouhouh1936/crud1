@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const Schema = mongoose.Schema;
 
-const crud1 = new Schema (
+const crud1 = new Schema(
     {
         title: {
             type: String,
@@ -15,7 +15,7 @@ const crud1 = new Schema (
 
     },
     {
-        versionKey:false,
+        versionKey: false,
     }
 );
 
